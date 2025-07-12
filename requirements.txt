@@ -1,7 +1,6 @@
+fastapi
+uvicorn
 pandas
-requests
+pydantic
 sqlalchemy
-psycopg2-binary
-streamlit
-jupyterlab
-pytest
+requests
