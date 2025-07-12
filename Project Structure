@@ -1,0 +1,27 @@
+nhs-hospital-admissions-etl/
+│
+├── data/                        # Sample raw data (small .csv or .zip for demo)
+│   └── hospital_admissions_sample.csv
+│
+├── extract/                    # Extraction scripts
+│   └── extract_nhs_data.py
+│
+├── transform/                  # Data cleaning & transformation logic
+│   └── clean_admissions_data.py
+│
+├── load/                       # Load logic (e.g., PostgreSQL or SQLite)
+│   └── load_to_postgres.py
+│
+├── notebooks/                  # Jupyter notebooks for analysis/EDA
+│   └── admissions_trends.ipynb
+│
+├── dashboard/                  # Optional: Streamlit/Power BI dashboard code
+│   └── streamlit_app.py
+│
+├── tests/                      # Unit tests for each ETL stage
+│   └── test_transform.py
+│
+├── requirements.txt            # Project dependencies
+├── .gitignore                  # Ignore unnecessary files
+├── README.md                   # Project overview & setup instructions
+└── LICENSE                     # MIT License or similar
